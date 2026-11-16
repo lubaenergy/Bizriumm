@@ -1,0 +1,1 @@
+import type { Config } from 'tailwindcss';\nexport default { content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'], theme: { extend: { colors: { bizrium: { navy: '#101D35', blue: '#315E9B' } } } }, plugins: [] } satisfies Config;\n
